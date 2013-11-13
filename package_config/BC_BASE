@@ -1,0 +1,23 @@
+PACKAGES aptitude
+apt
+apt-utils
+cfengine2
+console-setup
+debconf-utils
+dhcp3-client
+fai-client
+grub-pc
+language-pack-de
+less
+locales
+openssh-server
+vim
+net-tools
+openjdk-7-jre
+lxc
+net-tools
+dpkg
+dpkg-devi
+mc
+telnet
+ip-utils

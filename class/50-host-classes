@@ -1,0 +1,14 @@
+#! /bin/bash
+
+# assign classes hosts
+
+# use a list of classes for our demo machine
+case $HOSTNAME in
+    ubuntu1104)
+	echo "BC_BASE HDD_SINGLE NW_DHCP LANG_GERMAN OS_UBUNTU_1104_X32 XORG GNOME" ;;
+    *)
+	echo "BC_BASE HDD_SINGLE NW_DHCP LANG_GERMAN OS_UBUNTU_1104_X32 XORG XORG" ;;
+esac
+
+(ifclass I386 || ifclass AMD64) && echo GRUB 
+exit 0
